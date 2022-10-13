@@ -26,7 +26,7 @@ namespace EDC
         {
             ReportParameter[] para = new ReportParameter[]
             {
-                new ReportParameter("CurrentDate", DateTime.Now.ToString()),
+                new ReportParameter("CurrentDate", DateTime.Now.ToString("dd/MM/yyyy h:mm:ss tt")),
                 new ReportParameter("Total", String.Format("{0:n0}", _data[0].Total) + "R"),
                 new ReportParameter("InUSD", String.Format("{0:n}", ((double)_data[0].Total / 4100)))
             };
