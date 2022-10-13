@@ -9,3 +9,6 @@ In order to make the ReportViewer work in Visual Studio 2022, I had to scour the
    3. Microsoft.ReportViewer.WinForms.v12  
 
 Install them with Nuget, and you won't want to pull your hair out.  
+
+## Preview
+![preview](preview.jpg)
