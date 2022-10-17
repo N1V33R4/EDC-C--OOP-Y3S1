@@ -11,3 +11,6 @@ In order to make the ReportViewer work in Visual Studio 2022, I had to scour the
 Install them with Nuget, and you won't want to pull your hair out.  
 
 __Note:__ Don't forget to install "Microsoft.RdlcDesigner.vsix", to be able to read .rdlc files. The file is in this repo. 
+
+## Preview
+![preview](preview.jpg)
